@@ -11,5 +11,5 @@ import Foundation
 protocol HTTPClient {
     func setTimeout(timeout: TimeInterval)
     func executeAsStringAsync(request: HTTPRequest)
-    func executeAsBinaryAsync()
+    
 }
