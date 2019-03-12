@@ -23,5 +23,9 @@ class URLSessionClient: HTTPClient {
         
     }
     
+    func get(queryUrl: String, headers: [String : String]) -> HTTPRequest {
+       return HTTPRequest(method: HTTPMethod.GET, queryURL: queryUrl, headers: headers)
+    }
+    
     
 }

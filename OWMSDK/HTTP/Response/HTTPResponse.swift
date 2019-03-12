@@ -8,7 +8,7 @@
 
 import Foundation
 
-class HTTPResponse {
+public class HTTPResponse {
     
     private(set) var statusCode: Int
     private(set) var headers: [String: String]

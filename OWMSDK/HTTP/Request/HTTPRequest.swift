@@ -13,9 +13,9 @@ class HTTPRequest {
     private(set) var httpMethod: HTTPMethod
     private(set) var queryURL: String
     private(set) var headers: [String: String]
-    private(set) var parameters: [DictionaryLiteral<String, AnyObject>]
-    private(set) var username: String?
-    private(set) var password: String?
+//    private(set) var parameters: [DictionaryLiteral<String, AnyObject>]
+//    private(set) var username: String?
+//    private(set) var password: String?
     
     
     /// Initializes a simple http request
@@ -30,11 +30,10 @@ class HTTPRequest {
     ///
     /// - Returns:
     ///   Http request initialized with the given method, url and headers
-    init(method: HTTPMethod, queryURL: String, headers: [String: String], parameters: [DictionaryLiteral<String, AnyObject>]) {
+    init(method: HTTPMethod, queryURL: String, headers: [String: String]) {
         httpMethod = method
         self.queryURL = queryURL
         self.headers = headers
-        self.parameters = parameters
     }
     
     /// Initializes a simple http request
@@ -51,12 +50,12 @@ class HTTPRequest {
     ///
     /// - Returns:
     ///   Http request initialized with the given method, url and headers
-    init(method: HTTPMethod, queryURL: String, headers: [String: String], parameters: [DictionaryLiteral<String, AnyObject>], username: String, password: String) {
-        httpMethod = method
-        self.queryURL = queryURL
-        self.headers = headers
-        self.parameters = parameters
-        self.username = username
-        self.password = password
-    }
+//    init(method: HTTPMethod, queryURL: String, headers: [String: String], parameters: [DictionaryLiteral<String, AnyObject>], username: String, password: String) {
+//        httpMethod = method
+//        self.queryURL = queryURL
+//        self.headers = headers
+//        self.parameters = parameters
+//        self.username = username
+//        self.password = password
+//    }
 }

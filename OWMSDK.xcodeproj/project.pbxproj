@@ -15,6 +15,12 @@
 		86515EBE22367669007D43AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86515EBD22367669007D43AD /* Assets.xcassets */; };
 		86515EC122367669007D43AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86515EBF22367669007D43AD /* LaunchScreen.storyboard */; };
 		86515ECC2236766A007D43AD /* iOSExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86515ECB2236766A007D43AD /* iOSExampleTests.swift */; };
+		86515ED422377A6E007D43AD /* OWMSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 865CD382222F9373003EDD94 /* OWMSDK.framework */; };
+		86515ED522377A6E007D43AD /* OWMSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 865CD382222F9373003EDD94 /* OWMSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		86515EDA2237944E007D43AD /* OpenWeatherClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86515ED92237944E007D43AD /* OpenWeatherClient.swift */; };
+		86515EDC2237B3AF007D43AD /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86515EDB2237B3AF007D43AD /* APIHelper.swift */; };
+		86515EDE2237B724007D43AD /* APICallBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86515EDD2237B724007D43AD /* APICallBack.swift */; };
+		86515EE02237C7BF007D43AD /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86515EDF2237C7BF007D43AD /* BaseController.swift */; };
 		865CD38C222F9373003EDD94 /* OWMSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 865CD382222F9373003EDD94 /* OWMSDK.framework */; };
 		865CD391222F9373003EDD94 /* OWMSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865CD390222F9373003EDD94 /* OWMSDKTests.swift */; };
 		865CD393222F9373003EDD94 /* OWMSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 865CD385222F9373003EDD94 /* OWMSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -36,6 +42,13 @@
 			remoteGlobalIDString = 86515EB322367666007D43AD;
 			remoteInfo = iOSExample;
 		};
+		86515ED622377A6E007D43AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 865CD379222F9372003EDD94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 865CD381222F9373003EDD94;
+			remoteInfo = OWMSDK;
+		};
 		865CD38D222F9373003EDD94 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 865CD379222F9372003EDD94 /* Project object */;
@@ -44,6 +57,20 @@
 			remoteInfo = OWMSDK;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		86515ED822377A6F007D43AD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				86515ED522377A6E007D43AD /* OWMSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		86515EAC22363E86007D43AD /* APIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
@@ -58,6 +85,10 @@
 		86515EC72236766A007D43AD /* iOSExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86515ECB2236766A007D43AD /* iOSExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSExampleTests.swift; sourceTree = "<group>"; };
 		86515ECD2236766A007D43AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86515ED92237944E007D43AD /* OpenWeatherClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeatherClient.swift; sourceTree = "<group>"; };
+		86515EDB2237B3AF007D43AD /* APIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
+		86515EDD2237B724007D43AD /* APICallBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICallBack.swift; sourceTree = "<group>"; };
+		86515EDF2237C7BF007D43AD /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
 		865CD382222F9373003EDD94 /* OWMSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OWMSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		865CD385222F9373003EDD94 /* OWMSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OWMSDK.h; sourceTree = "<group>"; };
 		865CD386222F9373003EDD94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -79,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86515ED422377A6E007D43AD /* OWMSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,10 +188,11 @@
 			children = (
 				865CD39E222F9698003EDD94 /* HTTP */,
 				865CD39D222F9690003EDD94 /* Controllers */,
-				865CD39C222F967F003EDD94 /* Models */,
 				865CD385222F9373003EDD94 /* OWMSDK.h */,
 				865CD386222F9373003EDD94 /* Info.plist */,
 				86515EAE223649BC007D43AD /* Configuration.swift */,
+				86515ED92237944E007D43AD /* OpenWeatherClient.swift */,
+				86515EDB2237B3AF007D43AD /* APIHelper.swift */,
 			);
 			path = OWMSDK;
 			sourceTree = "<group>";
@@ -173,17 +206,11 @@
 			path = OWMSDKTests;
 			sourceTree = "<group>";
 		};
-		865CD39C222F967F003EDD94 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		865CD39D222F9690003EDD94 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				86515EAC22363E86007D43AD /* APIController.swift */,
+				86515EDF2237C7BF007D43AD /* BaseController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -204,6 +231,7 @@
 				865CD39F222F9952003EDD94 /* HTTPClient.swift */,
 				865CD3AE223282FD003EDD94 /* HTTPContext.swift */,
 				865CD3B02232892B003EDD94 /* URLSessionClient.swift */,
+				86515EDD2237B724007D43AD /* APICallBack.swift */,
 			);
 			path = Client;
 			sourceTree = "<group>";
@@ -248,10 +276,12 @@
 				86515EB022367666007D43AD /* Sources */,
 				86515EB122367666007D43AD /* Frameworks */,
 				86515EB222367666007D43AD /* Resources */,
+				86515ED822377A6F007D43AD /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				86515ED722377A6E007D43AD /* PBXTargetDependency */,
 			);
 			name = iOSExample;
 			productName = iOSExample;
@@ -415,10 +445,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86515EDC2237B3AF007D43AD /* APIHelper.swift in Sources */,
+				86515EDA2237944E007D43AD /* OpenWeatherClient.swift in Sources */,
+				86515EE02237C7BF007D43AD /* BaseController.swift in Sources */,
 				86515EAD22363E86007D43AD /* APIController.swift in Sources */,
 				865CD3AD223119D6003EDD94 /* HTTPResponse.swift in Sources */,
 				865CD3A4222FB193003EDD94 /* HTTPMethod.swift in Sources */,
 				865CD3AB2231092A003EDD94 /* HTTPStringResponse.swift in Sources */,
+				86515EDE2237B724007D43AD /* APICallBack.swift in Sources */,
 				865CD3A8222FB3EC003EDD94 /* HTTPRequest.swift in Sources */,
 				865CD3AF223282FD003EDD94 /* HTTPContext.swift in Sources */,
 				86515EAF223649BC007D43AD /* Configuration.swift in Sources */,
@@ -443,6 +477,11 @@
 			isa = PBXTargetDependency;
 			target = 86515EB322367666007D43AD /* iOSExample */;
 			targetProxy = 86515EC82236766A007D43AD /* PBXContainerItemProxy */;
+		};
+		86515ED722377A6E007D43AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 865CD381222F9373003EDD94 /* OWMSDK */;
+			targetProxy = 86515ED622377A6E007D43AD /* PBXContainerItemProxy */;
 		};
 		865CD38E222F9373003EDD94 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -474,6 +513,7 @@
 		86515ECF2236766A007D43AD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = iOSExample/Info.plist;
@@ -491,6 +531,7 @@
 		86515ED02236766A007D43AD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = iOSExample/Info.plist;

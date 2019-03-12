@@ -1,5 +1,5 @@
 //
-//  APIHelper.swift
+//  APIController.swift
 //  OWMSDK
 //
 //  Created by Wajahat on 11/03/2019.
@@ -8,17 +8,20 @@
 
 import Foundation
 
-open class APIController {
+public class APIController {
     
-    func getWeatherByCityNameAsyncWithQ(q: String) {
+    public init() {    }
+    
+    public func getWeatherByCityNameAsyncWithQ(q: String) {
         
-        let baseUri = Configuration.configurationBaseUri
+        let baseUri = Configuration.baseUri
         var queryBuilder = baseUri
-        queryBuilder += "/weather"
-        
+        queryBuilder += "/weather?q=\(q)&appid=\(Configuration.appId)"
         
         let session = URLSession.shared
         let url = URL(string: queryBuilder)
+        
+        print(queryBuilder)
         
         if let theUrl = url {
             let task = session.dataTask(with: theUrl) { data, response, error in
@@ -26,6 +29,7 @@ open class APIController {
                 if let data = data {
                     let jsonSerialized = try? JSONSerialization.jsonObject(with: data, options: [])
                     print(jsonSerialized as Any)
+                    
                 } else if let error = error {
                     print(error.localizedDescription)
                 }
@@ -34,5 +38,7 @@ open class APIController {
         }
         
     }
+    
+    
     
 }

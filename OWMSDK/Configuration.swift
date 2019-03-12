@@ -8,7 +8,11 @@
 
 import Foundation
 
-class Configuration {
-    static let configurationBaseUri = "https://samples.openweathermap.org/data/2.5";
-    let configurationAppId = ""
+public class Configuration {
+    /// Base Uri for API Calls
+    public static let baseUri = "https://samples.openweathermap.org/data/2.5";
+    
+    
+    /// Replace configurationAppId with and appropriate value
+    public static var appId = ""
 }
