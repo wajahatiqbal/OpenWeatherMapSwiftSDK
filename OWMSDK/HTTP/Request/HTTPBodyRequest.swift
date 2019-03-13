@@ -15,14 +15,14 @@ class HTTPBodyRequest: HTTPRequest {
     
     private(set) var body: String
     
-    init(method: HTTPMethod, queryURL: String, headers: [String : String], parameters: [DictionaryLiteral<String, AnyObject>], body: String) {
+    init(method: HTTPMethod, queryURL: String, headers: [String : String], body: String) {
         self.body = body
-        super.init(method: method, queryURL: queryURL, headers: headers, parameters: parameters)
+        super.init(method: method, queryURL: queryURL, headers: headers)
     }
     
-    init(method: HTTPMethod, queryURL: String, headers: [String : String], parameters: [DictionaryLiteral<String, AnyObject>], username: String, password: String, body: String) {
-        self.body = body
-        super.init(method: method, queryURL: queryURL, headers: headers, parameters: parameters, username: username, password: password)
-    }
+//    init(method: HTTPMethod, queryURL: String, headers: [String : String], parameters: [DictionaryLiteral<String, AnyObject>], username: String, password: String, body: String) {
+//        self.body = body
+//        super.init(method: method, queryURL: queryURL, headers: headers, parameters: parameters, username: username, password: password)
+//    }
     
 }

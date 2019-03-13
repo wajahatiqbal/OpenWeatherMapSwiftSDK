@@ -10,7 +10,9 @@ import Foundation
 
 public class APIController {
     
-    public init() {    }
+    public init() {
+        
+    }
     
     public func getWeatherByCityNameAsyncWithQ(q: String) {
         
@@ -29,6 +31,15 @@ public class APIController {
                 if let data = data {
                     let jsonSerialized = try? JSONSerialization.jsonObject(with: data, options: [])
                     print(jsonSerialized as Any)
+                    
+                    let decoder = JSONDecoder()
+                    decoder.keyDecodingStrategy = .convertFromSnakeCase
+                    do {
+                        let decoded = try decoder.decode(Response.self, from: data)
+                        print(decoded.main.tempMax)
+                    } catch {
+                        print(error)
+                    }
                     
                 } else if let error = error {
                     print(error.localizedDescription)

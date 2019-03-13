@@ -21,6 +21,7 @@
 		86515EDC2237B3AF007D43AD /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86515EDB2237B3AF007D43AD /* APIHelper.swift */; };
 		86515EDE2237B724007D43AD /* APICallBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86515EDD2237B724007D43AD /* APICallBack.swift */; };
 		86515EE02237C7BF007D43AD /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86515EDF2237C7BF007D43AD /* BaseController.swift */; };
+		86515EE32237D859007D43AD /* Wind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86515EE22237D859007D43AD /* Wind.swift */; };
 		865CD38C222F9373003EDD94 /* OWMSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 865CD382222F9373003EDD94 /* OWMSDK.framework */; };
 		865CD391222F9373003EDD94 /* OWMSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865CD390222F9373003EDD94 /* OWMSDKTests.swift */; };
 		865CD393222F9373003EDD94 /* OWMSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 865CD385222F9373003EDD94 /* OWMSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -32,6 +33,12 @@
 		865CD3AD223119D6003EDD94 /* HTTPResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865CD3AC223119D6003EDD94 /* HTTPResponse.swift */; };
 		865CD3AF223282FD003EDD94 /* HTTPContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865CD3AE223282FD003EDD94 /* HTTPContext.swift */; };
 		865CD3B12232892B003EDD94 /* URLSessionClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865CD3B02232892B003EDD94 /* URLSessionClient.swift */; };
+		8667CD0B2238E3D0000EDF20 /* Sys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8667CD0A2238E3D0000EDF20 /* Sys.swift */; };
+		8667CD0D2238EEC5000EDF20 /* Clouds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8667CD0C2238EEC5000EDF20 /* Clouds.swift */; };
+		8667CD0F223904B6000EDF20 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8667CD0E223904B6000EDF20 /* Weather.swift */; };
+		8667CD112239059C000EDF20 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8667CD102239059C000EDF20 /* Main.swift */; };
+		8667CD13223908D7000EDF20 /* Coord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8667CD12223908D7000EDF20 /* Coord.swift */; };
+		8667CD1522390973000EDF20 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8667CD1422390973000EDF20 /* Response.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +96,7 @@
 		86515EDB2237B3AF007D43AD /* APIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
 		86515EDD2237B724007D43AD /* APICallBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICallBack.swift; sourceTree = "<group>"; };
 		86515EDF2237C7BF007D43AD /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		86515EE22237D859007D43AD /* Wind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wind.swift; sourceTree = "<group>"; };
 		865CD382222F9373003EDD94 /* OWMSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OWMSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		865CD385222F9373003EDD94 /* OWMSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OWMSDK.h; sourceTree = "<group>"; };
 		865CD386222F9373003EDD94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -103,6 +111,12 @@
 		865CD3AC223119D6003EDD94 /* HTTPResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPResponse.swift; sourceTree = "<group>"; };
 		865CD3AE223282FD003EDD94 /* HTTPContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPContext.swift; sourceTree = "<group>"; };
 		865CD3B02232892B003EDD94 /* URLSessionClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionClient.swift; sourceTree = "<group>"; };
+		8667CD0A2238E3D0000EDF20 /* Sys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sys.swift; sourceTree = "<group>"; };
+		8667CD0C2238EEC5000EDF20 /* Clouds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clouds.swift; sourceTree = "<group>"; };
+		8667CD0E223904B6000EDF20 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		8667CD102239059C000EDF20 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		8667CD12223908D7000EDF20 /* Coord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coord.swift; sourceTree = "<group>"; };
+		8667CD1422390973000EDF20 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +175,20 @@
 			path = iOSExampleTests;
 			sourceTree = "<group>";
 		};
+		86515EE12237D796007D43AD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				86515EE22237D859007D43AD /* Wind.swift */,
+				8667CD0A2238E3D0000EDF20 /* Sys.swift */,
+				8667CD0C2238EEC5000EDF20 /* Clouds.swift */,
+				8667CD0E223904B6000EDF20 /* Weather.swift */,
+				8667CD102239059C000EDF20 /* Main.swift */,
+				8667CD12223908D7000EDF20 /* Coord.swift */,
+				8667CD1422390973000EDF20 /* Response.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		865CD378222F9372003EDD94 = {
 			isa = PBXGroup;
 			children = (
@@ -186,6 +214,7 @@
 		865CD384222F9373003EDD94 /* OWMSDK */ = {
 			isa = PBXGroup;
 			children = (
+				86515EE12237D796007D43AD /* Models */,
 				865CD39E222F9698003EDD94 /* HTTP */,
 				865CD39D222F9690003EDD94 /* Controllers */,
 				865CD385222F9373003EDD94 /* OWMSDK.h */,
@@ -446,16 +475,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				86515EDC2237B3AF007D43AD /* APIHelper.swift in Sources */,
+				8667CD13223908D7000EDF20 /* Coord.swift in Sources */,
+				8667CD0D2238EEC5000EDF20 /* Clouds.swift in Sources */,
 				86515EDA2237944E007D43AD /* OpenWeatherClient.swift in Sources */,
 				86515EE02237C7BF007D43AD /* BaseController.swift in Sources */,
+				8667CD0F223904B6000EDF20 /* Weather.swift in Sources */,
+				8667CD0B2238E3D0000EDF20 /* Sys.swift in Sources */,
 				86515EAD22363E86007D43AD /* APIController.swift in Sources */,
 				865CD3AD223119D6003EDD94 /* HTTPResponse.swift in Sources */,
 				865CD3A4222FB193003EDD94 /* HTTPMethod.swift in Sources */,
 				865CD3AB2231092A003EDD94 /* HTTPStringResponse.swift in Sources */,
 				86515EDE2237B724007D43AD /* APICallBack.swift in Sources */,
 				865CD3A8222FB3EC003EDD94 /* HTTPRequest.swift in Sources */,
+				8667CD1522390973000EDF20 /* Response.swift in Sources */,
+				8667CD112239059C000EDF20 /* Main.swift in Sources */,
 				865CD3AF223282FD003EDD94 /* HTTPContext.swift in Sources */,
 				86515EAF223649BC007D43AD /* Configuration.swift in Sources */,
+				86515EE32237D859007D43AD /* Wind.swift in Sources */,
 				865CD3A0222F9952003EDD94 /* HTTPClient.swift in Sources */,
 				865CD3A6222FB383003EDD94 /* HTTPBodyRequest.swift in Sources */,
 				865CD3B12232892B003EDD94 /* URLSessionClient.swift in Sources */,
