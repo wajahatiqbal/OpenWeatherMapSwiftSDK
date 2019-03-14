@@ -10,12 +10,20 @@ import Foundation
 
 class URLSessionClient: HTTPClient {
     
-    
-    func setTimeout(timeout: TimeInterval) {
-        
+    func executeAsStringAsync(url: URL?) {
+//        let session = URLSession.shared
+//        if let url = url {
+//            let task = session.dataTask(with: url) { data, response, error in
+//                if let data = data {
+//                   
+//                } else if let error = error {
+//                    print(error.localizedDescription)
+//                }
+//            }
+//        }
     }
     
-    func executeAsStringAsync(request: HTTPRequest) {
+    func setTimeout(timeout: TimeInterval) {
         
     }
     

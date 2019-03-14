@@ -11,4 +11,6 @@ import Foundation
 public class Coord: Codable {
     public let lon: Double
     public let lat: Double
+    
+    
 }

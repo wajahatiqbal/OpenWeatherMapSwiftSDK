@@ -18,7 +18,8 @@ class ViewController: UIViewController {
         Configuration.appId = "appid"
         print(Configuration.appId)
         let controller = APIController()
-        controller.getWeatherByCityNameAsyncWithQ(q: "London")
+        controller.getWeatherByCityNameAsync(q: "London")
+        controller.getWeatherByCityIDAsync(id: 2172797)
         
     }
 

@@ -10,7 +10,7 @@ import Foundation
 
 protocol HTTPClient {
     func setTimeout(timeout: TimeInterval)
-    func executeAsStringAsync(request: HTTPRequest)
+    func executeAsStringAsync(url: URL?)
     func get(queryUrl: String, headers: [String: String]) -> HTTPRequest
     
 }
