@@ -20,4 +20,5 @@ public class Response: Codable {
     public let dt: Double
     public let clouds: Clouds
     public let sys: Sys
+    
 }

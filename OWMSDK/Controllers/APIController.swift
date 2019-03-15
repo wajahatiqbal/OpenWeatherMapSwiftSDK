@@ -14,6 +14,9 @@ public class APIController {
         
     }
     
+    /// End Point method to get weather by city name
+    ///
+    /// - Parameter q: City Name
     public func getWeatherByCityNameAsync(q: String) {
         
         let baseUri = Configuration.baseUri
@@ -24,6 +27,8 @@ public class APIController {
         let url = URL(string: queryBuilder)
         
         print(queryBuilder)
+        
+        
         
         if let theUrl = url {
             let task = session.dataTask(with: theUrl) { data, response, error in
@@ -36,7 +41,7 @@ public class APIController {
                         let decoded = try decoder.decode(Response.self, from: data)
                         print(decoded.main.tempMax)
                     } catch {
-                        print(error)
+                        print(error.localizedDescription)
                     }
                     
                 } else if let error = error {
@@ -45,6 +50,7 @@ public class APIController {
             }
             task.resume()
         }
+        
         
     }
     
@@ -79,7 +85,6 @@ public class APIController {
             task.resume()
         }
     }
-    
     
     
 }

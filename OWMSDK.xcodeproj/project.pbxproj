@@ -23,14 +23,6 @@
 		865CD38C222F9373003EDD94 /* OWMSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 865CD382222F9373003EDD94 /* OWMSDK.framework */; };
 		865CD391222F9373003EDD94 /* OWMSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865CD390222F9373003EDD94 /* OWMSDKTests.swift */; };
 		865CD393222F9373003EDD94 /* OWMSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 865CD385222F9373003EDD94 /* OWMSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		865CD3A0222F9952003EDD94 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865CD39F222F9952003EDD94 /* HTTPClient.swift */; };
-		865CD3A4222FB193003EDD94 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865CD3A3222FB193003EDD94 /* HTTPMethod.swift */; };
-		865CD3A6222FB383003EDD94 /* HTTPBodyRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865CD3A5222FB383003EDD94 /* HTTPBodyRequest.swift */; };
-		865CD3A8222FB3EC003EDD94 /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865CD3A7222FB3EC003EDD94 /* HTTPRequest.swift */; };
-		865CD3AB2231092A003EDD94 /* HTTPStringResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865CD3AA2231092A003EDD94 /* HTTPStringResponse.swift */; };
-		865CD3AD223119D6003EDD94 /* HTTPResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865CD3AC223119D6003EDD94 /* HTTPResponse.swift */; };
-		865CD3AF223282FD003EDD94 /* HTTPContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865CD3AE223282FD003EDD94 /* HTTPContext.swift */; };
-		865CD3B12232892B003EDD94 /* URLSessionClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865CD3B02232892B003EDD94 /* URLSessionClient.swift */; };
 		8667CD0B2238E3D0000EDF20 /* Sys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8667CD0A2238E3D0000EDF20 /* Sys.swift */; };
 		8667CD0D2238EEC5000EDF20 /* Clouds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8667CD0C2238EEC5000EDF20 /* Clouds.swift */; };
 		8667CD0F223904B6000EDF20 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8667CD0E223904B6000EDF20 /* Weather.swift */; };
@@ -99,14 +91,6 @@
 		865CD38B222F9373003EDD94 /* OWMSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OWMSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		865CD390222F9373003EDD94 /* OWMSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWMSDKTests.swift; sourceTree = "<group>"; };
 		865CD392222F9373003EDD94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		865CD39F222F9952003EDD94 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
-		865CD3A3222FB193003EDD94 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
-		865CD3A5222FB383003EDD94 /* HTTPBodyRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPBodyRequest.swift; sourceTree = "<group>"; };
-		865CD3A7222FB3EC003EDD94 /* HTTPRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequest.swift; sourceTree = "<group>"; };
-		865CD3AA2231092A003EDD94 /* HTTPStringResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPStringResponse.swift; sourceTree = "<group>"; };
-		865CD3AC223119D6003EDD94 /* HTTPResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPResponse.swift; sourceTree = "<group>"; };
-		865CD3AE223282FD003EDD94 /* HTTPContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPContext.swift; sourceTree = "<group>"; };
-		865CD3B02232892B003EDD94 /* URLSessionClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionClient.swift; sourceTree = "<group>"; };
 		8667CD0A2238E3D0000EDF20 /* Sys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sys.swift; sourceTree = "<group>"; };
 		8667CD0C2238EEC5000EDF20 /* Clouds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clouds.swift; sourceTree = "<group>"; };
 		8667CD0E223904B6000EDF20 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
@@ -211,7 +195,6 @@
 			isa = PBXGroup;
 			children = (
 				86515EE12237D796007D43AD /* Models */,
-				865CD39E222F9698003EDD94 /* HTTP */,
 				865CD39D222F9690003EDD94 /* Controllers */,
 				865CD385222F9373003EDD94 /* OWMSDK.h */,
 				865CD386222F9373003EDD94 /* Info.plist */,
@@ -237,45 +220,6 @@
 				86515EAC22363E86007D43AD /* APIController.swift */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		865CD39E222F9698003EDD94 /* HTTP */ = {
-			isa = PBXGroup;
-			children = (
-				865CD3A922310908003EDD94 /* Response */,
-				865CD3A2222FB167003EDD94 /* Request */,
-				865CD3A1222FB145003EDD94 /* Client */,
-			);
-			path = HTTP;
-			sourceTree = "<group>";
-		};
-		865CD3A1222FB145003EDD94 /* Client */ = {
-			isa = PBXGroup;
-			children = (
-				865CD39F222F9952003EDD94 /* HTTPClient.swift */,
-				865CD3AE223282FD003EDD94 /* HTTPContext.swift */,
-				865CD3B02232892B003EDD94 /* URLSessionClient.swift */,
-			);
-			path = Client;
-			sourceTree = "<group>";
-		};
-		865CD3A2222FB167003EDD94 /* Request */ = {
-			isa = PBXGroup;
-			children = (
-				865CD3A3222FB193003EDD94 /* HTTPMethod.swift */,
-				865CD3A5222FB383003EDD94 /* HTTPBodyRequest.swift */,
-				865CD3A7222FB3EC003EDD94 /* HTTPRequest.swift */,
-			);
-			path = Request;
-			sourceTree = "<group>";
-		};
-		865CD3A922310908003EDD94 /* Response */ = {
-			isa = PBXGroup;
-			children = (
-				865CD3AA2231092A003EDD94 /* HTTPStringResponse.swift */,
-				865CD3AC223119D6003EDD94 /* HTTPResponse.swift */,
-			);
-			path = Response;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -475,18 +419,10 @@
 				8667CD0F223904B6000EDF20 /* Weather.swift in Sources */,
 				8667CD0B2238E3D0000EDF20 /* Sys.swift in Sources */,
 				86515EAD22363E86007D43AD /* APIController.swift in Sources */,
-				865CD3AD223119D6003EDD94 /* HTTPResponse.swift in Sources */,
-				865CD3A4222FB193003EDD94 /* HTTPMethod.swift in Sources */,
-				865CD3AB2231092A003EDD94 /* HTTPStringResponse.swift in Sources */,
-				865CD3A8222FB3EC003EDD94 /* HTTPRequest.swift in Sources */,
 				8667CD1522390973000EDF20 /* Response.swift in Sources */,
 				8667CD112239059C000EDF20 /* Main.swift in Sources */,
-				865CD3AF223282FD003EDD94 /* HTTPContext.swift in Sources */,
 				86515EAF223649BC007D43AD /* Configuration.swift in Sources */,
 				86515EE32237D859007D43AD /* Wind.swift in Sources */,
-				865CD3A0222F9952003EDD94 /* HTTPClient.swift in Sources */,
-				865CD3A6222FB383003EDD94 /* HTTPBodyRequest.swift in Sources */,
-				865CD3B12232892B003EDD94 /* URLSessionClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
