@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         let controller = APIController()
         controller.getWeatherByCityNameAsync(q: "London")
         controller.getWeatherByCityIDAsync(id: 2172797)
-        
+   
     }
 
 }

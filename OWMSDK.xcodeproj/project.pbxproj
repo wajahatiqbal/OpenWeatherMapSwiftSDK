@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		530ACB3D858E9707DA72DB3F /* Pods_iOSExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00D6F6781A74912CD252B809 /* Pods_iOSExampleTests.framework */; };
+		5639FC5C6B8B8324296040EA /* Pods_OWMSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1EEDAE248669DE751CA81DE /* Pods_OWMSDK.framework */; };
+		5D328D486D1E3E792402ED2D /* Pods_OWMSDKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D31BFAF1AEDA0136F09F64F /* Pods_OWMSDKTests.framework */; };
 		86515EAD22363E86007D43AD /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86515EAC22363E86007D43AD /* APIController.swift */; };
 		86515EAF223649BC007D43AD /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86515EAE223649BC007D43AD /* Configuration.swift */; };
 		86515EB722367666007D43AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86515EB622367666007D43AD /* AppDelegate.swift */; };
@@ -17,8 +20,6 @@
 		86515ECC2236766A007D43AD /* iOSExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86515ECB2236766A007D43AD /* iOSExampleTests.swift */; };
 		86515ED422377A6E007D43AD /* OWMSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 865CD382222F9373003EDD94 /* OWMSDK.framework */; };
 		86515ED522377A6E007D43AD /* OWMSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 865CD382222F9373003EDD94 /* OWMSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		86515EDA2237944E007D43AD /* OpenWeatherClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86515ED92237944E007D43AD /* OpenWeatherClient.swift */; };
-		86515EDC2237B3AF007D43AD /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86515EDB2237B3AF007D43AD /* APIHelper.swift */; };
 		86515EE32237D859007D43AD /* Wind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86515EE22237D859007D43AD /* Wind.swift */; };
 		865CD38C222F9373003EDD94 /* OWMSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 865CD382222F9373003EDD94 /* OWMSDK.framework */; };
 		865CD391222F9373003EDD94 /* OWMSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865CD390222F9373003EDD94 /* OWMSDKTests.swift */; };
@@ -29,6 +30,7 @@
 		8667CD112239059C000EDF20 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8667CD102239059C000EDF20 /* Main.swift */; };
 		8667CD13223908D7000EDF20 /* Coord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8667CD12223908D7000EDF20 /* Coord.swift */; };
 		8667CD1522390973000EDF20 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8667CD1422390973000EDF20 /* Response.swift */; };
+		B002A4EE6E63B65BDC77D8B6 /* Pods_iOSExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74EBA0660059CF587DDD0F07 /* Pods_iOSExample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		00D6F6781A74912CD252B809 /* Pods_iOSExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		09CAC0CB0BD1CCD39B3E68D4 /* Pods-iOSExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSExample/Pods-iOSExample.debug.xcconfig"; sourceTree = "<group>"; };
+		118AC532452886C4CD30E92B /* Pods-OWMSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OWMSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OWMSDK/Pods-OWMSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		16FB8153F329E4478AA97D30 /* Pods-OWMSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OWMSDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-OWMSDK/Pods-OWMSDK.release.xcconfig"; sourceTree = "<group>"; };
+		19EAA06E0FEAEF79F3EE3FAB /* Pods-iOSExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSExampleTests/Pods-iOSExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		2D31BFAF1AEDA0136F09F64F /* Pods_OWMSDKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OWMSDKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F967E3784899B4BA5B0A6D9 /* Pods-iOSExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSExampleTests/Pods-iOSExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		546C78C28ABE9C8C65C8AF16 /* Pods-iOSExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSExample/Pods-iOSExample.release.xcconfig"; sourceTree = "<group>"; };
+		73131363883C666D83E1B394 /* Pods-OWMSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OWMSDKTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OWMSDKTests/Pods-OWMSDKTests.release.xcconfig"; sourceTree = "<group>"; };
+		74EBA0660059CF587DDD0F07 /* Pods_iOSExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86515EAC22363E86007D43AD /* APIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
 		86515EAE223649BC007D43AD /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		86515EB422367666007D43AD /* iOSExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,8 +94,6 @@
 		86515EC72236766A007D43AD /* iOSExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86515ECB2236766A007D43AD /* iOSExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSExampleTests.swift; sourceTree = "<group>"; };
 		86515ECD2236766A007D43AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		86515ED92237944E007D43AD /* OpenWeatherClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeatherClient.swift; sourceTree = "<group>"; };
-		86515EDB2237B3AF007D43AD /* APIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
 		86515EE22237D859007D43AD /* Wind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wind.swift; sourceTree = "<group>"; };
 		865CD382222F9373003EDD94 /* OWMSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OWMSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		865CD385222F9373003EDD94 /* OWMSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OWMSDK.h; sourceTree = "<group>"; };
@@ -97,6 +107,8 @@
 		8667CD102239059C000EDF20 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		8667CD12223908D7000EDF20 /* Coord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coord.swift; sourceTree = "<group>"; };
 		8667CD1422390973000EDF20 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		8E03098F6185C8990D135701 /* Pods-OWMSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OWMSDKTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OWMSDKTests/Pods-OWMSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E1EEDAE248669DE751CA81DE /* Pods_OWMSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OWMSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +117,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				86515ED422377A6E007D43AD /* OWMSDK.framework in Frameworks */,
+				B002A4EE6E63B65BDC77D8B6 /* Pods_iOSExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				530ACB3D858E9707DA72DB3F /* Pods_iOSExampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +133,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5639FC5C6B8B8324296040EA /* Pods_OWMSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,12 +142,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				865CD38C222F9373003EDD94 /* OWMSDK.framework in Frameworks */,
+				5D328D486D1E3E792402ED2D /* Pods_OWMSDKTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		82687423E5F762C990E0247B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1EEDAE248669DE751CA81DE /* Pods_OWMSDK.framework */,
+				2D31BFAF1AEDA0136F09F64F /* Pods_OWMSDKTests.framework */,
+				74EBA0660059CF587DDD0F07 /* Pods_iOSExample.framework */,
+				00D6F6781A74912CD252B809 /* Pods_iOSExampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		86515EB522367666007D43AD /* iOSExample */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,6 +204,8 @@
 				86515EB522367666007D43AD /* iOSExample */,
 				86515ECA2236766A007D43AD /* iOSExampleTests */,
 				865CD383222F9373003EDD94 /* Products */,
+				D86EC6F0C557F17FB6CA8192 /* Pods */,
+				82687423E5F762C990E0247B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -199,8 +228,6 @@
 				865CD385222F9373003EDD94 /* OWMSDK.h */,
 				865CD386222F9373003EDD94 /* Info.plist */,
 				86515EAE223649BC007D43AD /* Configuration.swift */,
-				86515ED92237944E007D43AD /* OpenWeatherClient.swift */,
-				86515EDB2237B3AF007D43AD /* APIHelper.swift */,
 			);
 			path = OWMSDK;
 			sourceTree = "<group>";
@@ -222,6 +249,21 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		D86EC6F0C557F17FB6CA8192 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				118AC532452886C4CD30E92B /* Pods-OWMSDK.debug.xcconfig */,
+				16FB8153F329E4478AA97D30 /* Pods-OWMSDK.release.xcconfig */,
+				8E03098F6185C8990D135701 /* Pods-OWMSDKTests.debug.xcconfig */,
+				73131363883C666D83E1B394 /* Pods-OWMSDKTests.release.xcconfig */,
+				09CAC0CB0BD1CCD39B3E68D4 /* Pods-iOSExample.debug.xcconfig */,
+				546C78C28ABE9C8C65C8AF16 /* Pods-iOSExample.release.xcconfig */,
+				2F967E3784899B4BA5B0A6D9 /* Pods-iOSExampleTests.debug.xcconfig */,
+				19EAA06E0FEAEF79F3EE3FAB /* Pods-iOSExampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -240,10 +282,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86515ECE2236766A007D43AD /* Build configuration list for PBXNativeTarget "iOSExample" */;
 			buildPhases = (
+				1FCE83C63AC0B2FF6FB9A4FE /* [CP] Check Pods Manifest.lock */,
 				86515EB022367666007D43AD /* Sources */,
 				86515EB122367666007D43AD /* Frameworks */,
 				86515EB222367666007D43AD /* Resources */,
 				86515ED822377A6F007D43AD /* Embed Frameworks */,
+				2AA0125AE2A6371BEDAD4CBA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -259,6 +303,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86515ED12236766A007D43AD /* Build configuration list for PBXNativeTarget "iOSExampleTests" */;
 			buildPhases = (
+				0504AAAF3160BB1BC97CBFC0 /* [CP] Check Pods Manifest.lock */,
 				86515EC32236766A007D43AD /* Sources */,
 				86515EC42236766A007D43AD /* Frameworks */,
 				86515EC52236766A007D43AD /* Resources */,
@@ -277,6 +322,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 865CD396222F9373003EDD94 /* Build configuration list for PBXNativeTarget "OWMSDK" */;
 			buildPhases = (
+				CA76CAE4BFBAD012A752EBB3 /* [CP] Check Pods Manifest.lock */,
 				865CD37D222F9373003EDD94 /* Headers */,
 				865CD37E222F9373003EDD94 /* Sources */,
 				865CD37F222F9373003EDD94 /* Frameworks */,
@@ -295,9 +341,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 865CD399222F9373003EDD94 /* Build configuration list for PBXNativeTarget "OWMSDKTests" */;
 			buildPhases = (
+				40C338EF92F9EC0C0EC4C722 /* [CP] Check Pods Manifest.lock */,
 				865CD387222F9373003EDD94 /* Sources */,
 				865CD388222F9373003EDD94 /* Frameworks */,
 				865CD389222F9373003EDD94 /* Resources */,
+				1684A65897C0863391D8150C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -390,6 +438,141 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0504AAAF3160BB1BC97CBFC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1684A65897C0863391D8150C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OWMSDKTests/Pods-OWMSDKTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OWMSDKTests/Pods-OWMSDKTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FCE83C63AC0B2FF6FB9A4FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2AA0125AE2A6371BEDAD4CBA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iOSExample/Pods-iOSExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSExample/Pods-iOSExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40C338EF92F9EC0C0EC4C722 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OWMSDKTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA76CAE4BFBAD012A752EBB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OWMSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		86515EB022367666007D43AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -412,10 +595,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86515EDC2237B3AF007D43AD /* APIHelper.swift in Sources */,
 				8667CD13223908D7000EDF20 /* Coord.swift in Sources */,
 				8667CD0D2238EEC5000EDF20 /* Clouds.swift in Sources */,
-				86515EDA2237944E007D43AD /* OpenWeatherClient.swift in Sources */,
 				8667CD0F223904B6000EDF20 /* Weather.swift in Sources */,
 				8667CD0B2238E3D0000EDF20 /* Sys.swift in Sources */,
 				86515EAD22363E86007D43AD /* APIController.swift in Sources */,
@@ -476,6 +657,7 @@
 /* Begin XCBuildConfiguration section */
 		86515ECF2236766A007D43AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09CAC0CB0BD1CCD39B3E68D4 /* Pods-iOSExample.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -494,6 +676,7 @@
 		};
 		86515ED02236766A007D43AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 546C78C28ABE9C8C65C8AF16 /* Pods-iOSExample.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -512,6 +695,7 @@
 		};
 		86515ED22236766A007D43AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F967E3784899B4BA5B0A6D9 /* Pods-iOSExampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -532,6 +716,7 @@
 		};
 		86515ED32236766A007D43AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19EAA06E0FEAEF79F3EE3FAB /* Pods-iOSExampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -674,6 +859,7 @@
 		};
 		865CD397222F9373003EDD94 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 118AC532452886C4CD30E92B /* Pods-OWMSDK.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -700,6 +886,7 @@
 		};
 		865CD398222F9373003EDD94 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16FB8153F329E4478AA97D30 /* Pods-OWMSDK.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -725,6 +912,7 @@
 		};
 		865CD39A222F9373003EDD94 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E03098F6185C8990D135701 /* Pods-OWMSDKTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -743,6 +931,7 @@
 		};
 		865CD39B222F9373003EDD94 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73131363883C666D83E1B394 /* Pods-OWMSDKTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
